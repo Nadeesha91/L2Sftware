@@ -1,0 +1,36 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Tony Stark",
+      "date": "2018/12/01",
+      "email": "tony@mcu.com",
+      "rating": 6,
+      "status": "Selected"
+    },
+    {
+      "id": 2,
+      "name": "Tony Stark",
+      "date": "2018/12/01",
+      "email": "tony@mcu.com",
+      "rating": 5,
+      "status": "Not Selected"
+    },
+    {
+      "id": 3,
+      "name": "Tony Stark",
+      "date": "2018/12/01",
+      "email": "tony@mcu.com",
+      "rating": 4,
+      "status": "Not Selected"
+    },
+    {
+      "id": 4,
+      "name": "Tony Stark",
+      "date": "2018/12/01",
+      "email": "tony@mcu.com",
+      "rating": 7,
+      "status": "Selected"
+    }
+  ]
+}

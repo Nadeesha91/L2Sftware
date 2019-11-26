@@ -1,0 +1,83 @@
+.flex-container {
+    display: flex;
+  }
+
+
+  .bItem {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    left: 0px;
+    /* padding: 18px; */
+    background-size: cover;
+    background-position: center start;
+    background-image: url(https://s3-ap-southeast-1.amazonaws.com/images.humanresourcesonline.net/wp-content/uploads/2018/09/21104925/Jerene-Sep-2018-email-123RF.jpg);
+    z-index: -1;
+  }
+  
+  .bItem:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 0%, black 100%);
+    z-index: -1;
+  }
+
+  .table1{
+    padding: 12px;
+    background-color: rgba(245, 245, 220, 0.336);
+  }
+  /* .bg{
+    background-image: url("https://marketingland.com/wp-content/ml-loads/2015/09/email-laptop-computer-marketing-ss-1920.jpg");
+    height:1000px
+    ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  } */
+  .h1{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center;
+      text-transform: uppercase;
+      color:white;
+      font-size: 60px;
+      background-color: rgba(0, 0, 0, 0.356);
+
+  }
+  td, th {
+    border: 1px black;
+    text-align: left;
+    padding: 8px;
+    width:1000px;
+  }
+  
+  
+  tr {
+    background-color: whitesmoke;
+    width:500px;
+  }
+
+  .lw{
+    text-align:left, bottom;
+    color:yellow;
+    font-size: 20px;
+    
+    
+    color:black;
+
+}
+
+.formData{
+  color:greenyellow;
+  margin-left: 15px;
+}
+select{
+  margin-left: 5px;
+}
