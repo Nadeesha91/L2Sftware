@@ -16,7 +16,7 @@
     "express": "^4.17.1",
     "ical": "^0.6.0",
     "ical-generator": "^1.7.2",
-    "mongoose": "^5.6.4",
+    "mongoose": "^5.7.5",
     "nodemailer": "^6.3.0",
     "nodemon": "^1.19.1"
   }
